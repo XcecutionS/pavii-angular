@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  logo = 'https://d1v73nxuzaqxgd.cloudfront.net/users/burger-1.png';
+  colorParrafo = 'red';
 }

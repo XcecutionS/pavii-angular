@@ -1,4 +1,4 @@
-import { ArticuloFamilia } from "./articulos-familia";
+import { ArticuloFamilia } from './articulos-familia';
 
 export let ArticulosFamilia: ArticuloFamilia[] = [
   { IdArticuloFamilia: 1, Nombre: 'Accesorios' },
