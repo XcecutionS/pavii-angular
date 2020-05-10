@@ -12,9 +12,9 @@ export class ArticulosListaComponent implements OnInit {
   listaArt: ArticuloFamilia[];
   verGrilla = false;
   msj = 'Mostrar grilla';
-  id:string;
+  id: string;
 
-  constructor(private route:ActivatedRoute) {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     this.listaArt = ArticulosFamilia;
